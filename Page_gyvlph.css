@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+    /* background-color: pink; */
+    /* background-color: blanchedalmond; */
+    width: 80vw;
+    height: 1562vh;
+}
+.left{
+    flex:2;
+    /* background-color: aqua; */
+    width: 100%;
+}
+.leftimg img{
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover; */
+}
+.right{
+    flex:1;
+    width: 100%;
+}
+.c32r2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #025351; */
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* border: 1px solid #025351; */
+    margin-top: 10px;
+}
+.c32r2 div{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.qtcontainer{
+    background-color: #F3F5F7;
+    border-radius: 5px;
+    gap:10px;
+    height: 434px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.qt1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    height: 113px;
+    /* background-color: #025351; */
+
+}
+.qt1 div{
+    font-weight: 500;
+    font-size: 32px;
+    width: 199.83px;
+}
+.qtjob{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.qtcontent{
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: #025351; */
+    padding-left: 10px;
+    /* border-radius: 10px; */
+    /* border: 1px solid #025351; */
+    width: 80%;
+}
+.qtcontent div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #025351; */
+    /* width: 100%; */
+}
+.qtcontenttime{
+
+}
+.qt2{
+    background-color: white;
+    padding:15px;
+    border-radius: 5px;
+}
+.qt2 .qtname{
+    font-family: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #025351;
+}
+.qt2 .qtname2{
+    font-family: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    /* color: #025351; */
+}
+
+.infomore{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding-left: 20px;
+    justify-content: space-between;
+    gap:10px
+}
+.qt2 .hn{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.23px;
+    /* color: #025351; */
+    background-color: #F1F1F1;
+    padding: 10px;
+    border-radius: 5px;
+    padding:2px 6px 2px 6px;
+    
+}
+.qtth{
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qtth button{
+    width: 384px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #025351;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
